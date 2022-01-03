@@ -3,10 +3,10 @@
     <router-link to="/">Главная</router-link> |
     <router-link to="/AboutClub">О клубе</router-link> |
     <router-link to="/AboutFans">О фанатах</router-link> |
-    <router-link to="/AboutSite">О сайте</router-link> |
     <router-link to="/Foto">Фото</router-link> |
     <router-link to="/Video">Видео</router-link> |
-    <router-link to="/Contacts">Контакты</router-link>
+    <router-link to="/Contacts">Контакты</router-link> |
+    <router-link to="/AboutSite">О сайте</router-link>
   </div>
   <router-view/>
 </template>

@@ -1,10 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Vue from 'vue'
 import Home from '../views/Home.vue'
-import AboutClub from '@/views/AboutClub'
-import Router from '@vue/cli-plugin-router/generator/template/src/router'
-
-Vue.use(Router)
 
 const routes = [
   {
@@ -13,14 +8,34 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
-    name: 'About',
-    component: () => import('../views/About.vue')
-  },
-  {
     path: '/AboutClub',
     name: 'AboutClub',
     component: () => import('../views/AboutClub.vue')
+  },
+  {
+    path: '/AboutFans',
+    name: 'AboutFans',
+    component: () => import('../views/AboutFans')
+  },
+  {
+    path: '/Foto',
+    name: 'Foto',
+    component: () => import('../views/Foto')
+  },
+  {
+    path: '/Video',
+    name: 'Video',
+    component: () => import('../views/Video')
+  },
+  {
+    path: '/Contacts',
+    name: 'Contacts',
+    component: () => import('../views/Contacts')
+  },
+  {
+    path: '/AboutSite',
+    name: 'AboutSite',
+    component: () => import('../views/AboutSite')
   }
 ]
 
