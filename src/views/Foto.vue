@@ -1,6 +1,6 @@
 <template>
   <div class="AboutClub">
-    <h1>This is an page for foto</h1>
+    <h3>Страница с фото</h3>
     <silent-box :gallery="gallery"></silent-box>
   </div>
 </template>
