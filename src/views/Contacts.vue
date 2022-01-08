@@ -1,5 +1,5 @@
 <template>
   <div class="AboutClub">
-    <h1>This is an about page for contact admin web site</h1>
+    <h3>Связаться со мной можно через email: lowdogодинтришестьсобакагмайлдотком</h3>
   </div>
 </template>
