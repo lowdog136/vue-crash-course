@@ -2,7 +2,8 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.jpg">
     <MainBlock msg="Добро пожаловать на сайт SeverFans"/>
-  </div>;
+  </div>
+<!--  Текст подвала править тут-->
   <div id="footer">
     <Footer msg="Создан в 2007" />
   </div>
