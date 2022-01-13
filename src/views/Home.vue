@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.jpg">
+    <PictureInTopAll />
     <MainBlock msg="Добро пожаловать на сайт SeverFans"/>
   </div>
 <!--  Текст подвала править тут-->
@@ -13,11 +13,12 @@
 // @ is an alias to /src
 import MainBlock from '@/components/MainBlock'
 import Footer from '@/components/Footer'
+import PictureInTopAll from '@/components/PictureInTopAll'
 
 export default {
   name: 'Home',
   components: {
-    MainBlock, Footer
+    MainBlock, Footer, PictureInTopAll
   }
 }
 </script>

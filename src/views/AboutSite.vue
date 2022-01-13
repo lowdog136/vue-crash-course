@@ -1,12 +1,6 @@
-<!--<template>-->
-<!--  <div class="AboutSite">-->
-
-<!--    </h3>-->
-<!--  </div>-->
-<!--</template>-->
 <template>
   <div class="home">
-    <img alt="ssm logo" src="../assets/logo.jpg">
+    <PictureInTopAll />
     <h3>Cтраница о истории сайта severfans.ru </h3>
       Сайт был основан в 2007 году. Точную дату не вспомнить, но судя по Wayback Machine  - 25 мая.<br>
       Наверно эта дата и будет считаться датой начала. Хотя по факту все начиналось раньше. <br>
@@ -22,10 +16,12 @@
 <script>
 // @ is an alias to /src
 import Footer from '@/components/Footer'
+import PictureInTopAll from '@/components/PictureInTopAll'
 
 export default {
   name: 'Home',
   components: {
+    PictureInTopAll,
     Footer
   }
 }
