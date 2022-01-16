@@ -8,8 +8,22 @@
     <router-link to="/Contacts">Контакты</router-link> |
     <router-link to="/AboutSite">О сайте</router-link>
   </div>
-  <router-view/>
+  <div class="content">
+    <router-view/>
+  </div>
+  <div class="footer">
+    <Footer msg="Создан в 2007" />
+  </div>
 </template>
+
+<script>
+import Footer from '@/components/Footer'
+export default {
+  components: {
+    Footer
+  }
+}
+</script>
 
 <style>
 #app {
@@ -31,5 +45,9 @@
 
 #nav a.router-link-exact-active {
   color: #8d0000;
+}
+
+.content {
+  min-height: calc(100vh - 150px);
 }
 </style>
