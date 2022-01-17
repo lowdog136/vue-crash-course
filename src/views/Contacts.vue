@@ -1,5 +1,16 @@
 <template>
-  <div class="AboutClub">
-    <h1>This is an about page for contact admin web site</h1>
+  <div class="home">
+    <img alt="ssm logo" src="../assets/logo.jpg">
+    <h3>Связаться со мной можно через email: <br>
+      lowdogодинтришестьсобакагмайлдотком</h3>
+
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+
+export default {
+  name: 'Home'
+}
+</script>

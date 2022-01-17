@@ -1,5 +1,12 @@
 <template>
   <div class="AboutClub">
-    <h1>This is an page for video</h1>
+    <picture-in-top-all />
+    <h3>This is an page for video</h3>
   </div>
 </template>
+<script>
+import PictureInTopAll from '@/components/PictureInTopAll'
+export default {
+  components: { PictureInTopAll }
+}
+</script>
