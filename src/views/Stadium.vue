@@ -1,5 +1,5 @@
 <template>
   <div>
-    Archive
+    stadium
   </div>
 </template>

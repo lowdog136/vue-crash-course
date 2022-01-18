@@ -36,6 +36,21 @@ const routes = [
     path: '/AboutSite',
     name: 'AboutSite',
     component: () => import('../views/AboutSite')
+  },
+  {
+    path: '/FCSever',
+    name: 'FCsever',
+    component: () => import('../views/FCSever')
+  },
+  {
+    path: '/Stadium',
+    name: 'Stadiom',
+    component: () => import('../views/Stadium')
+  },
+  {
+    path: '/Archive',
+    name: 'Archive',
+    component: () => import('../views/Archive')
   }
 ]
 
