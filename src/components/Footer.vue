@@ -1,14 +1,24 @@
 <template>
   <div class="footer">
     <h4>{{ msg }}</h4>
+    <h8>{{date}}</h8>
   </div>
 </template>
 
+<!-- Настройка времени переменная Date -->
 <script>
 export default {
+  data: () => ({
+    date: new Date()
+  }),
   name: 'footer_word',
   props: {
     msg: String
+  },
+  mounted () {
+    setInterval(() => {
+      this.date = new Date()
+    }, 1000)
   }
 }
 </script>
