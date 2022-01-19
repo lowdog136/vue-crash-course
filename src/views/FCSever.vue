@@ -1,21 +1,50 @@
 <template>
-  <div class="home">
-    <PictureInTopAll />
-    <h3>Футбольный клуб "Север" г. Мурманск </h3>
-    <ul>
-      <li><a href="AboutClub.vue" rel="noopener">О клубе</a></li>
-      <li><a href="Stadium.vue" rel="noopener">Стадион</a></li>
-      <li><a href="AboutFans.vue" rel="noopener">Фанаты</a></li>
-    </ul>
-    <h3>Футбольный клуб "Север-М" г. Мурманск</h3>
-    <ul>
-      <li><a href="AboutClub.vue" rel="noopener">О клубе</a></li>
-      <li><a href="Stadium.vue" rel="noopener">Стадион</a></li>
-      <li><a href="AboutFans.vue" rel="noopener">Фанаты</a></li>
-    </ul>
+  <PictureInTopAll />
+  <div class="row">
+    <div class="col s11 m2">
+      <div class="card">
+        <div class="card-image">
+          <img src="../assets/fcsever_logo.png">
+          <span class="card-title">FC Sever</span>
+        </div>
+        <div class="card-content">
+          <p>Информация о клубе.</p>
+        </div>
+        <div class="card-action">
+          <a href="../views/Home.vue">Больше информации</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s11 m2">
+      <div class="card">
+        <div class="card-image">
+          <img src="../assets/fcsever_logo.png">
+          <span class="card-title">Card Title</span>
+        </div>
+        <div class="card-content">
+          <p>Стадион.</p>
+        </div>
+        <div class="card-action">
+          <a href="../views/Home.vue">Больше информации</a>
+        </div>
+      </div>
+    </div>
+    <div class="col s11 m2">
+      <div class="card">
+        <div class="card-image">
+          <img src="../assets/images/ssm_logo.jpg">
+          <span class="card-title">Card Title</span>
+        </div>
+        <div class="card-content">
+          <p>Фанаты</p>
+        </div>
+        <div class="card-action">
+          <a href="../views/Home.vue">Больше информации</a>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
-
 <script>
 // @ is an alias to /src
 import PictureInTopAll from '@/components/PictureInTopAll'
@@ -27,21 +56,3 @@ export default {
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #650404;
-}
-</style>
