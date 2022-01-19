@@ -1,49 +1,49 @@
 <template>
   <PictureInTopAll />
-  <div class="row">
-    <div class="col s11 m2">
+  <div class="content__fcSever">
       <div class="card">
+        <a href="../views/Home.vue">
         <div class="card-image">
           <img src="../assets/fcsever_logo.png">
-          <span class="card-title">FC Sever</span>
         </div>
         <div class="card-content">
           <p>Информация о клубе.</p>
         </div>
         <div class="card-action">
-          <a href="../views/Home.vue">Больше информации</a>
+          Больше информации
         </div>
+    </a>
       </div>
-    </div>
-    <div class="col s11 m2">
+
       <div class="card">
+        <a href="../views/Home.vue">
         <div class="card-image">
           <img src="../assets/fcsever_logo.png">
-          <span class="card-title">Card Title</span>
         </div>
         <div class="card-content">
           <p>Стадион.</p>
         </div>
         <div class="card-action">
-          <a href="../views/Home.vue">Больше информации</a>
+          Больше информации
         </div>
+    </a>
       </div>
-    </div>
-    <div class="col s11 m2">
+
       <div class="card">
-        <div class="card-image">
-          <img src="../assets/images/ssm_logo.jpg">
-          <span class="card-title">Card Title</span>
-        </div>
-        <div class="card-content">
-          <p>Фанаты</p>
-        </div>
-        <div class="card-action">
-          <a href="../views/Home.vue">Больше информации</a>
-        </div>
+        <a href="../views/Home.vue">
+          <div class="card-image">
+            <img src="../assets/images/ssm_logo.jpg">
+          </div>
+          <div class="card-content">
+            <p>Фанаты</p>
+          </div>
+          <div class="card-action">
+            Больше информации
+          </div>
+        </a>
       </div>
     </div>
-  </div>
+
 </template>
 <script>
 // @ is an alias to /src
@@ -56,3 +56,26 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .content__fcSever {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    min-width: 1000px;
+    margin-top: 25px;
+  }
+  .card {
+    max-width: 325px;
+    min-width: 325px;
+    height: 500px;
+    border-radius: 8px;
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  .card:hover {
+    transform: scale(1.1);
+  }
+
+</style>
