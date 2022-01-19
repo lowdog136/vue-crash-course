@@ -62,14 +62,14 @@ export default {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    min-width: 1000px;
+    max-width: 600px;
+    min-width: 600px;
     margin-top: 25px;
   }
   .card {
-    max-width: 325px;
-    min-width: 325px;
-    height: 500px;
+    max-width: 180px;
+    min-width: 180px;
+    height: 345px;
     border-radius: 8px;
     transition: all 0.2s;
     cursor: pointer;
