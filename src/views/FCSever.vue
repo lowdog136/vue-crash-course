@@ -7,7 +7,7 @@
           <img src="../assets/fcsever_logo.png">
         </div>
         <div class="card-content">
-          <p>Информация о клубе.</p>
+          <p>Информация о клубе</p>
         </div>
         <div class="card-action">
           Больше информации
@@ -21,7 +21,7 @@
           <img src="../assets/fcsever_logo.png">
         </div>
         <div class="card-content">
-          <p>Стадион.</p>
+          <p>Стадион</p>
         </div>
         <div class="card-action">
           Больше информации
