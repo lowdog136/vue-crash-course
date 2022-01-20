@@ -1,21 +1,50 @@
 <template>
-  <div class="home">
-    <PictureInTopAll />
-    <h3>Фото </h3>
-    <ul>
-      <li><a href="AboutClub.vue" rel="noopener">О клубе</a></li>
-      <li><a href="Stadium.vue" rel="noopener">Стадион</a></li>
-      <li><a href="AboutFans.vue" rel="noopener">Фанаты</a></li>
-    </ul>
-    <h3>Видео</h3>
-    <ul>
-      <li><a href="AboutClub.vue" rel="noopener">О клубе</a></li>
-      <li><a href="Stadium.vue" rel="noopener">Стадион</a></li>
-      <li><a href="AboutFans.vue" rel="noopener">Фанаты</a></li>
-    </ul>
-  </div>
-</template>
+  <PictureInTopAll />
+  <div class="content__fcSever">
+    <div class="card">
+      <a href="../views/Home.vue">
+        <div class="card-image">
+          <img src="../assets/fcsever_logo.png">
+        </div>
+        <div class="card-content">
+          <p>Фото</p>
+        </div>
+        <div class="card-action">
+          Больше информации
+        </div>
+      </a>
+    </div>
 
+    <div class="card">
+      <a href="../views/Home.vue">
+        <div class="card-image">
+          <img src="../assets/fcsever_logo.png">
+        </div>
+        <div class="card-content">
+          <p>Видео</p>
+        </div>
+        <div class="card-action">
+          Больше информации
+        </div>
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="../views/Home.vue">
+        <div class="card-image">
+          <img src="../assets/images/ssm_logo.jpg">
+        </div>
+        <div class="card-content">
+          <p>Результаты матчей</p>
+        </div>
+        <div class="card-action">
+          Больше информации
+        </div>
+      </a>
+    </div>
+  </div>
+
+</template>
 <script>
 // @ is an alias to /src
 import PictureInTopAll from '@/components/PictureInTopAll'
@@ -28,20 +57,25 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+.content__fcSever {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  min-width: 600px;
+  margin-top: 25px;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.card {
+  max-width: 180px;
+  min-width: 180px;
+  height: 345px;
+  border-radius: 8px;
+  transition: all 0.2s;
+  cursor: pointer;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+.card:hover {
+  transform: scale(1.1);
 }
-a {
-  color: #650404;
-}
+
 </style>
