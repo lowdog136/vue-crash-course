@@ -77,5 +77,7 @@ export default {
   .card:hover {
     transform: scale(1.1);
   }
-
+  a {
+    color: #1f1c1c;
+  }
 </style>
