@@ -18,7 +18,7 @@
       <div class="card">
         <a href="../views/Home.vue">
         <div class="card-image">
-          <img src="../assets/fcsever_logo.png">
+          <img src="../assets/images/stad2card.jpg">
         </div>
         <div class="card-content">
           <p>Стадион</p>
