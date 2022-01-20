@@ -4,7 +4,7 @@
     <div class="card">
       <a href="../views/Home.vue">
         <div class="card-image">
-          <img src="../assets/fcsever_logo.png">
+          <img src="../assets/images/foto2card.jpg">
         </div>
         <div class="card-content">
           <p>Фото</p>
@@ -18,7 +18,7 @@
     <div class="card">
       <a href="../views/Home.vue">
         <div class="card-image">
-          <img src="../assets/fcsever_logo.png">
+          <img src="../assets/images/video2card.png">
         </div>
         <div class="card-content">
           <p>Видео</p>
@@ -32,7 +32,7 @@
     <div class="card">
       <a href="../views/Home.vue">
         <div class="card-image">
-          <img src="../assets/images/ssm_logo.jpg">
+          <img src="../assets/images/resulte2card.png">
         </div>
         <div class="card-content">
           <p>Результаты матчей</p>
@@ -69,7 +69,7 @@ export default {
 .card {
   max-width: 180px;
   min-width: 180px;
-  height: 345px;
+  height: 300px;
   border-radius: 8px;
   transition: all 0.2s;
   cursor: pointer;
