@@ -1,9 +1,10 @@
 <template>
   <div class="footer">
-    <h4>{{ msg }}</h4>
+    <h6>{{ msg }}</h6>
   </div>
 </template>
 
+<!-- Настройка времени переменная Date -->
 <script>
 export default {
   name: 'footer_word',

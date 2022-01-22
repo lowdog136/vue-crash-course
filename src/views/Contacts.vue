@@ -1,9 +1,8 @@
 <template>
   <div class="home">
     <img alt="ssm logo" src="../assets/logo.jpg">
-    <h3>Связаться со мной можно через email: <br>
-      lowdogодинтришестьсобакагмайлдотком</h3>
-
+    <h5>Связаться со мной можно через email: <br>
+      lowdogодинтришестьсобакагмайлдотком</h5>
   </div>
 </template>
 
