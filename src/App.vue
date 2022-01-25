@@ -1,10 +1,8 @@
 <template>
   <div id="nav">
     <router-link to="/">Главная</router-link> |
-    <router-link to="/AboutClub">О клубе</router-link> |
-    <router-link to="/AboutFans">О фанатах</router-link> |
-    <router-link to="/Foto">Фото</router-link> |
-    <router-link to="/Video">Видео</router-link> |
+    <router-link to="/FCSever">ФК Север</router-link> |
+    <router-link to="/Archive">Архив</router-link> |
     <router-link to="/Contacts">Контакты</router-link> |
     <router-link to="/AboutSite">О сайте</router-link>
   </div>
@@ -26,12 +24,14 @@ export default {
 </script>
 
 <style>
+@import "~materialize-css/dist/css/materialize.min.css";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #261818;
+  color: #440202;
 }
 
 #nav {
