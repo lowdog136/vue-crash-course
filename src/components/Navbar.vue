@@ -1,8 +1,8 @@
 <template>
   <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">logo</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><router-link to="/">Главная</router-link></li>
         <li><router-link to="/FCSever">ФК Север</router-link></li>
         <li><router-link to="/Archive">Архив</router-link></li>
         <li><router-link to="/Contacts">Контакты</router-link></li>
