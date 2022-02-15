@@ -1,5 +1,5 @@
 <template>
   <di>
-    <img alt="Vue logo" src="../assets/logo.jpg">
+    <img alt="SeverFans main image" src="../assets/logo.jpg">
   </di>
 </template>

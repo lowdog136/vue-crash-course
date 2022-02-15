@@ -1,10 +1,13 @@
 <template>
   <div class="hello">
     <h4>{{ msg }}</h4>
-    <p>
+    <p class="text-flow">
       Cайт посвящен ФК "Север" г. Мурманск и его фанатам,<br>
       год основания футбольного клуба 01/03/1961
       </p>
+  </div>
+  <div class="mainimage">
+    <img width="550" height="430" src="../assets/images/stad2card.jpg">
   </div>
 </template>
 

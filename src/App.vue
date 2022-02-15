@@ -1,11 +1,5 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Главная</router-link> |
-    <router-link to="/FCSever">ФК Север</router-link> |
-    <router-link to="/Archive">Архив</router-link> |
-    <router-link to="/Contacts">Контакты</router-link> |
-    <router-link to="/AboutSite">О сайте</router-link>
-  </div>
+<navbar />
   <div class="content">
     <router-view/>
   </div>
@@ -15,16 +9,18 @@
 </template>
 
 <script>
-import Footer from '@/components/Footer'
+import Footer from './components/FooterNew.vue'
+import navbar from './components/Navbar.vue'
+
 export default {
   components: {
-    Footer
+    Footer, navbar
   }
 }
 </script>
 
 <style>
-@import "~materialize-css/dist/css/materialize.min.css";
+@import "~materialize-css/dist/css/materialize.css";
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -36,6 +32,7 @@ export default {
 
 #nav {
   padding: 30px;
+  background-color: aliceblue;
 }
 
 #nav a {

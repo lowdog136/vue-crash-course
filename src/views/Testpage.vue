@@ -1,20 +1,28 @@
 <template>
-  <div class="home">
+  <div class="app">
     <PictureInTopAll />
-    <MainBlock msg="Добро пожаловать на сайт SeverFans"/>
-    <navbar />
+    <carousel />
+
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import MainBlock from '@/components/MainBlock'
 import PictureInTopAll from '@/components/PictureInTopAll'
+import carousel from '../components/carousel.vue'
 
 export default {
   name: 'Home',
   components: {
-    MainBlock, PictureInTopAll
+    PictureInTopAll, carousel
   }
 }
 </script>
+
+<style>
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em
+}
+</style>

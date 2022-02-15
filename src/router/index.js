@@ -43,6 +43,11 @@ const routes = [
     component: () => import('../views/FCSever')
   },
   {
+    path: '/Testpage',
+    name: 'Testpage',
+    component: () => import('../views/Testpage')
+  },
+  {
     path: '/Stadium',
     name: 'Stadiom',
     component: () => import('../views/Stadium')
