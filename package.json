@@ -1,6 +1,6 @@
 {
-  "name": "vue-crash-edu",
-  "version": "0.1.0",
+  "name": "SeverFans.ru",
+  "version": "0.1.5",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
