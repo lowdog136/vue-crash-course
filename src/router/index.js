@@ -1,5 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import NotFound from '../views/404'
 
 const routes = [
   {
@@ -46,6 +47,11 @@ const routes = [
     path: '/Testpage',
     name: 'Testpage',
     component: () => import('../views/Testpage')
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    component: NotFound
   },
   {
     path: '/Stadium',
