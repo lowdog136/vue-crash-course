@@ -8,7 +8,7 @@
     </div>
   </div>
   <div class="mainimage">
-    <img width="900" height="530" src="../assets/images/stad2card.jpg">
+    <img width="800" height="530" src="../assets/images/stad2card.jpg">
   </div>
 </template>
 
