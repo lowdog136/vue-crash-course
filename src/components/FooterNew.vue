@@ -10,7 +10,7 @@
 <style scoped>
 .page-footer {
 background-color: #ad0000;
-max-width: 600px;
+max-width: 1000px;
 margin: 0 auto;
 }
 </style>

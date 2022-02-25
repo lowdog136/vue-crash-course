@@ -45,6 +45,9 @@ export default {
 }
 
 .content {
-  min-height: calc(100vh - 150px);
+  min-height: calc(100vh - 107px);
+  /*background-color: #d7d7d7;*/
+  max-width: 1000px;
+  margin: 0 auto;
 }
 </style>
