@@ -21,17 +21,8 @@ export default {
 <style>
 @import "~materialize-css/dist/css/materialize.css";
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #440202;
-}
 .home {
-  background-color: #ad0000;
   max-width: 1000px;
-  max-height: 200px;
   margin: 0 auto;
 }
 </style>
