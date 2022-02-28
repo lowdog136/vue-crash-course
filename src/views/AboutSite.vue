@@ -24,7 +24,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .my-blockqoute {
   margin: 20px 0;
   padding-left: 1.5rem;
@@ -33,5 +33,4 @@ export default {
   margin: 0 auto;
   text-align: left;
 }
-
 </style>

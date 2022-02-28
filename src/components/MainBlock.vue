@@ -8,7 +8,7 @@
     </div>
   </div>
   <div class="mainimage">
-    <img width="800" height="530" src="../assets/images/main-img.png">
+    <img src="../assets/images/main-img.png">
   </div>
 </template>
 
@@ -25,9 +25,10 @@ export default {
 <style scoped>
 .mainimage{
   background-color: #ffffff;
-  max-width: 1000px;
-  max-height: 430px;
+  max-width: 800px;
+  max-height: 530px;
   margin: 0 auto;
+  display: flex;
 }
 .hello_msg{
   background-color: #ffffff;
