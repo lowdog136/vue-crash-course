@@ -33,4 +33,5 @@ export default {
   margin: 0 auto;
   text-align: left;
 }
+
 </style>

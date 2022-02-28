@@ -62,6 +62,11 @@ const routes = [
     path: '/Archive',
     name: 'Archive',
     component: () => import('../views/Archive')
+  },
+  {
+    path: '/HistoryClub',
+    name: 'HistoryClub',
+    component: () => import('../views/HistoryClub')
   }
 ]
 

@@ -1,50 +1,47 @@
 <template>
-  <PictureInTopAll />
-  <div class="content__fcSever">
+  <div class="app">
+    <PictureInTopAll />
+    <div class="card-content2">
       <div class="card">
-        <a href="../views/Home.vue">
         <div class="card-image">
           <img src="../assets/fcsever_logo.png">
         </div>
         <div class="card-content">
-          <p>Информация о клубе</p>
+          <p>О клубе</p>
         </div>
         <div class="card-action">
-          Больше информации
+          <router-link to="HistoryClub">Больше информации</router-link>
         </div>
-    </a>
       </div>
 
       <div class="card">
-        <a href="../views/Home.vue">
         <div class="card-image">
-          <img src="../assets/images/stad2card.jpg">
+          <img src="../assets/fcsever_logo.png">
         </div>
         <div class="card-content">
           <p>Стадион</p>
         </div>
         <div class="card-action">
-          Больше информации
+          <router-link to="Stadium">Больше информации</router-link>
         </div>
-    </a>
       </div>
 
       <div class="card">
-        <a href="../views/Home.vue">
-          <div class="card-image">
-            <img src="../assets/images/ssm_logo.jpg">
-          </div>
-          <div class="card-content">
-            <p>Фанаты</p>
-          </div>
-          <div class="card-action">
-            Больше информации
-          </div>
-        </a>
+        <div class="card-image">
+          <img src="../assets/fcsever_logo.png">
+        </div>
+        <div class="card-content">
+          <p>Фанаты</p>
+        </div>
+        <div class="card-action">
+          <router-link to="AboutFans">Больше информации</router-link>
+        </div>
       </div>
-    </div>
 
+    </div>
+  </div>
 </template>
+
 <script>
 // @ is an alias to /src
 import PictureInTopAll from '@/components/PictureInTopAll'
@@ -58,26 +55,34 @@ export default {
 </script>
 
 <style scoped>
-  .content__fcSever {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    max-width: 600px;
-    min-width: 600px;
-    margin-top: 25px;
-  }
-  .card {
-    max-width: 180px;
-    min-width: 180px;
-    height: 345px;
-    border-radius: 8px;
-    transition: all 0.2s;
-    cursor: pointer;
-  }
-  .card:hover {
-    transform: scale(1.1);
-  }
-  a {
-    color: #1f1c1c;
-  }
+.card-content2 {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  min-width: 600px;
+  margin-top: 25px;
+}
+.card {
+  max-width: 180px;
+  min-width: 180px;
+  height: 345px;
+  border-radius: 8px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card-image {
+  max-width: 180px;
+  max-height: 180px;
+}
+.card-action {
+  color: #0909cc;
+  margin-right: 0px;
+}
+a {
+  color: #1f1c1c;
+}
 </style>
